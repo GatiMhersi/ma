@@ -1,0 +1,209 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: "inter";
+  line-height: 1.5;
+}
+
+body {
+  margin: 0px 0;
+}
+
+/*-------------------------- Barra de Navegacion -------------------------- */
+
+#barra-navegacion {
+  background-color: #472D2D;
+  color: #fff;
+}
+
+.container-fluid{
+  background-color: #472D2D;
+  padding: 20px 30px;
+}
+
+.container-fluid a{
+  color:#fff;
+  font-family: "inter";
+  font-weight: normal;
+}
+
+.container-fluid a:hover{
+  color: #A77979;
+  text-shadow: 2px 2px 5px black;
+}
+
+.navbar{
+  padding: 0;
+}
+
+/* -------------------------- Seccion Inicio -------------------------- */
+
+#home {
+  background-color: #472D2D;
+  color: #fff;
+}
+
+.caractula{
+  margin: auto;
+  width: 75%;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.hm-texto{
+  padding: 20% 0 7%;
+}
+
+.titulo{
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.25rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.subtitulo{
+  color: lightgrey;
+  text-shadow: 1px 1px 10px black;
+  font-weight: lighter;
+  padding: 0 7%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.separador{
+  margin: 0 auto;
+  width: 75%;
+  border-top: 7px dotted #A77979;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.caractula .separador{
+  margin: 25% auto 0;
+}
+
+.img-caractula{
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.imagen {
+  z-index: 1;
+  padding: 5% 0 0;
+}
+
+@media (max-width: 1028px) {
+  .imagen {
+    display: none;
+    }
+
+}
+/* -------------------------- Seccion Nosotros --------------------------*/
+
+#nosotros {
+  padding: 0% 0% 0%;
+  position: relative;
+  bottom: 25px;
+  z-index: 0;
+}
+
+.nos-caractula{
+  padding: 3% 10% 1%;
+  background-color: #553939
+}
+
+.nos-titulo{
+  color: lightgrey;
+  text-shadow: 1px 1px 2px black;
+  font-weight: normal;
+  font-size: 3rem;
+  padding-bottom: 4%;
+  padding-left: 17%;
+}
+
+.nos-parr{
+  color: lightgrey;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding: 0% 7% 7%;
+  letter-spacing: 0.2rem;
+}
+
+#nosotros .separador{
+  width: 10%;
+  border-width: 15px;
+}
+
+.nos-features{
+  padding: 7% 0;
+}
+
+.nos-caract{
+  padding: 7% 10%;
+}
+
+.constructor {
+  width: 30%;
+  margin-bottom: 3%;
+  fill: white;
+}
+
+.nos-div{
+  text-align: center;
+  padding: 0 3%;
+}
+
+.nos-div-titulo {
+  color: #553939;
+  font-weight: 900;
+
+}
+
+.nos-div-text{
+  color: #A77979;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.nos-resistencia{
+  padding: 3% 15%;
+}
+
+.img-clima{
+  width: 60%;
+}
+
+.nos-img{
+  text-align: center;
+}
+
+.nos-res-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nos-res-p{
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+#contacto {
+  padding: 7% 10%;
+  background-color: #704F4F;
+  color: white;
+}
+
+.ico-redes{
+  padding: 3% 3%;
+  font-size: 2.5rem;
+  color: #A77979;
+}
+
+.ico-redes:hover{
+  color: white;
+}
